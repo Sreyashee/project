@@ -1,0 +1,123 @@
+/* Address Form Style */
+.address-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Location container with red icon */
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.location-icon {
+  color: red;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.location {
+  font-size: 1.1rem;
+  color: black;
+}
+
+/* Input fields with underlines */
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input-container label {
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.input-line {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  padding: 5px 0;
+  background-color: transparent;
+  font-size: 1rem;
+  color: black;
+}
+
+.input-line:focus {
+  border-bottom: 2px solid red; /* Highlight input on focus */
+}
+
+/* Save As section with category icons */
+.category-container {
+  margin-bottom: 20px;
+}
+
+.category-container label {
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.category-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: black;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.selected {
+  color: red; /* Highlight selected icon */
+}
+
+/* Save Button */
+.save-button {
+  width: 100%;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.save-button:hover {
+  background-color: darkred;
+}
+/* App.css */
+.manage-address-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif; /* Adjust this to match the font used in the Save Address form */
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  display: block; /* Makes the button block level to center it */
+  margin: 20px auto; /* Centers the button horizontally */
+  width: 200px; /* Optional, controls button width */
+}
+
+.manage-address-btn:hover {
+  background-color: darkred;
+}
